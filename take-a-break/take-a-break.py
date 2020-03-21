@@ -10,6 +10,7 @@ waiting_time = seconds_in_one_hour * number_of_hour
 total_breaks_count = 10
 number_of_breaks_taken = 0
 
+print("The program has started on " + time.ctime())
 while (number_of_breaks_taken < total_breaks_count) :
     time.sleep(waiting_time)
     webbrowser.open(my_url)
